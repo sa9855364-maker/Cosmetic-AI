@@ -1,0 +1,5 @@
+﻿dataset_name,file_count,extension,resolution,annotations,source
+FFHQ_raw,5000,jpg,1024x1024 (thumbnails via HF mirror),N/A,bitmind/ffhq-256 on HuggingFace
+processed_faces,4995,jpg,512x512,N/A,generated locally from FFHQ
+landmarks,4994,json,N/A,"478 points per face (x,y)",MediaPipe Face Landmarker
+masks,4994,png,512x512,nose(green) + lips(red) regions,landmark-derived ellipse/hull
