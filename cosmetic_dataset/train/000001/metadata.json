@@ -1,0 +1,12 @@
+{
+  "id": "000001",
+  "operation": "rhinoplasty",
+  "source_type": "synthetic",
+  "before": "before.jpg",
+  "after": "after.jpg",
+  "landmarks": "landmarks.json",
+  "mask": "mask.png",
+  "generator": "SD1.5-inpainting",
+  "seed": 73881,
+  "quality_flag": null
+}
